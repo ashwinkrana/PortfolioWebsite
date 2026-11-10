@@ -1,0 +1,23 @@
+node_modules
+.next
+out
+.env*.local
+.DS_Store
+next-env.d.ts
+*.tsbuildinfo
+.vercel
+
+# secrets
+.env*
+!.env.example
+*.pem
+*.key
+
+# local tooling
+.claude/
+.agents/
+.impeccable/
+skills-lock.json
+
+# unused assets
+heroimage.png
